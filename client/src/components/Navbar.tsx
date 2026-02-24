@@ -64,28 +64,32 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-1">
           {navLinks.map((link) =>
             link.children ? (
-              <div key={link.label} className="relative group">
+              <div
+                key={link.label}
+                className="relative"
+                onMouseEnter={() => setAboutOpen(true)}
+                onMouseLeave={() => setAboutOpen(false)}
+              >
                 <button
                   className={`px-3 py-2 text-sm font-medium transition-colors duration-200 rounded-md flex items-center gap-1 ${
                     location.startsWith("/about") || location === "/founder" || location === "/careers"
                       ? "text-terracotta-light"
                       : "text-stone/80 hover:text-stone"
                   }`}
-                  onMouseEnter={() => setAboutOpen(true)}
-                  onMouseLeave={() => setAboutOpen(false)}
                 >
                   {link.label}
-                  <ChevronDown className="w-3.5 h-3.5" />
+                  <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-200 ${aboutOpen ? "rotate-180" : ""}`} />
                 </button>
+                {/* Invisible bridge to prevent gap between button and dropdown */}
+                <div className="absolute top-full left-0 h-2 w-48" />
                 <div
-                  className={`absolute top-full left-0 mt-1 w-48 bg-card rounded-lg shadow-xl border border-border overflow-hidden transition-all duration-200 ${
+                  className={`absolute top-full left-0 pt-2 w-48 transition-all duration-200 ${
                     aboutOpen
                       ? "opacity-100 translate-y-0 pointer-events-auto"
                       : "opacity-0 -translate-y-2 pointer-events-none"
                   }`}
-                  onMouseEnter={() => setAboutOpen(true)}
-                  onMouseLeave={() => setAboutOpen(false)}
                 >
+                <div className="bg-card rounded-lg shadow-xl border border-border overflow-hidden">
                   {link.children.map((child) => (
                     <Link
                       key={child.href}
@@ -99,6 +103,7 @@ export default function Navbar() {
                       {child.label}
                     </Link>
                   ))}
+                </div>
                 </div>
               </div>
             ) : (
