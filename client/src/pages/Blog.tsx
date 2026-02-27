@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import { ArrowRight, Calendar, Clock, User, Tag } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 
-const HERO_IMG = "https://files.manuscdn.com/user_upload_by_module/session_file/310519663287814150/kCAYXvAVggttRptW.webp";
+const HERO_IMG = "/images/hero-desktop.webp";
 
 interface BlogPost {
   id: number;
@@ -29,7 +29,7 @@ const blogPosts: BlogPost[] = [
     readTime: "8 min",
     author: "Planet Earth Society",
     category: "Privacy",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=340&fit=crop",
+    image: "/images/blog-1.jpg",
     featured: true,
   },
   {
@@ -40,7 +40,7 @@ const blogPosts: BlogPost[] = [
     readTime: "12 min",
     author: "Planet Earth Society",
     category: "Technology",
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=340&fit=crop",
+    image: "/images/blog-2.jpg",
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const blogPosts: BlogPost[] = [
     readTime: "6 min",
     author: "Planet Earth Society",
     category: "Platform",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=340&fit=crop",
+    image: "/images/blog-3.jpg",
   },
   {
     id: 4,
@@ -60,7 +60,7 @@ const blogPosts: BlogPost[] = [
     readTime: "10 min",
     author: "Planet Earth Society",
     category: "Digital Rights",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=340&fit=crop",
+    image: "/images/blog-4.jpg",
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const blogPosts: BlogPost[] = [
     readTime: "7 min",
     author: "Planet Earth Society",
     category: "Networking",
-    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=600&h=340&fit=crop",
+    image: "/images/blog-5.jpg",
   },
   {
     id: 6,
@@ -80,7 +80,7 @@ const blogPosts: BlogPost[] = [
     readTime: "5 min",
     author: "Planet Earth Society",
     category: "Mission",
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=340&fit=crop",
+    image: "/images/blog-6.jpg",
   },
 ];
 

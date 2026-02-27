@@ -7,7 +7,7 @@ import { Play, Download, Headphones, Video, Clock, Calendar, ChevronDown } from 
 import AnimatedSection from "@/components/AnimatedSection";
 import { toast } from "sonner";
 
-const PODCAST_IMG = "https://private-us-east-1.manuscdn.com/sessionFile/VK2BPOdXzOkDT8Maot7Qip/sandbox/Ul0MbzM2JOiObjJGmcqQOm-img-4_1771911495000_na1fn_cGVzLXBvZGNhc3Qtc2VjdGlvbg.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVksyQlBPZFh6T2tEVDhNYW90N1FpcC9zYW5kYm94L1VsME1iek0ySk9pT2JqSkdtY3FRT20taW1nLTRfMTc3MTkxMTQ5NTAwMF9uYTFmbl9jR1Z6TFhCdlpHTmhjM1F0YzJWamRHbHZiZy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=HcyTe7noXbmr33OHiEzqDB43EjbrW2zlFQazo-yU3YgIBxC8XIU~nTo7YD2ZnBpNuOb7e2Q3k~GgVUCcuytwuxwKuHkGpg8FkCfuDsKFtmftMWeQ-ko1c-C2Hi6YdPpSGsEger-Vw7tgY8vFGq6jG5GXMC835AXqRpy3IWcjwEIxlQtA8ioBhgxJ1qkjCgYghYVbVDhRpLF172HHTIozD1nqeHPpNY8S4rnI1aW70lOedpJpm6IgG88YsoNMiQb65lznf6a60urQ5Kmdm1HsKtrRD9X55XyTEdQufNd6b7QKj-JNW0FUfrLQp1cY2eNC~ANx-lc8SAQNOgIHU0d55g__";
+const PODCAST_IMG = "/images/pes-podcast-section.webp";
 
 interface Episode {
   id: number;
@@ -29,7 +29,7 @@ const episodes: Episode[] = [
     duration: "42:18",
     season: 1,
     episode: 1,
-    thumbnail: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=225&fit=crop",
+    thumbnail: "/images/podcast-1.jpg",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ const episodes: Episode[] = [
     duration: "38:45",
     season: 1,
     episode: 2,
-    thumbnail: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=225&fit=crop",
+    thumbnail: "/images/podcast-2.jpg",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ const episodes: Episode[] = [
     duration: "45:32",
     season: 1,
     episode: 3,
-    thumbnail: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=225&fit=crop",
+    thumbnail: "/images/podcast-3.jpg",
   },
   {
     id: 4,
@@ -59,7 +59,7 @@ const episodes: Episode[] = [
     duration: "51:10",
     season: 1,
     episode: 4,
-    thumbnail: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=225&fit=crop",
+    thumbnail: "/images/podcast-4.jpg",
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ const episodes: Episode[] = [
     duration: "39:55",
     season: 1,
     episode: 5,
-    thumbnail: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=225&fit=crop",
+    thumbnail: "/images/podcast-5.jpg",
   },
   {
     id: 6,
@@ -79,7 +79,7 @@ const episodes: Episode[] = [
     duration: "36:22",
     season: 1,
     episode: 6,
-    thumbnail: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=225&fit=crop",
+    thumbnail: "/images/podcast-6.jpg",
   },
 ];
 

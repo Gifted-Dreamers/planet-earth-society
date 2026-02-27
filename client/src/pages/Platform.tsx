@@ -7,7 +7,7 @@ import { ArrowRight, Cloud, Wifi, Fingerprint, Code, Database, Cpu } from "lucid
 import AnimatedSection from "@/components/AnimatedSection";
 import SectionDivider from "@/components/SectionDivider";
 
-const PLATFORM_IMG = "https://private-us-east-1.manuscdn.com/sessionFile/VK2BPOdXzOkDT8Maot7Qip/sandbox/Ul0MbzM2JOiObjJGmcqQOm-img-1_1771911498000_na1fn_cGVzLXBsYXRmb3JtLXNlY3Rpb24.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVksyQlBPZFh6T2tEVDhNYW90N1FpcC9zYW5kYm94L1VsME1iek0ySk9pT2JqSkdtY3FRT20taW1nLTFfMTc3MTkxMTQ5ODAwMF9uYTFmbl9jR1Z6TFhCc1lYUm1iM0p0TFhObFkzUnBiMjQuanBnP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=vnb3yxOiWuEe1e1TAMdP3lDyvPZBDhm8g6hfH5QRyum399Sqqwemy6zt6v33IFaT0cbVxLzch4EbsqKn2CdgrQBM310NYuV7~~q2aT4WrByEOnhbZNi5fRYeQh7~mHfHoyaK8xGOE~1S~aQ-TEV30rF7rjgSEPOs6Tl24GLI2ThThc-d0D9QkWae-kA2YYgZkJvuMyOJvUCQvLbkB-oLCCJAecB61hqTH4Sb-LbWfMEyHGJnNPux7gerEiPjyVEnOy5lznwQ2HjO6BFGnsGzItZ9mk5bPlXET-kUml9mMNoVvLBD-Sov6FVGlMGPDmoOe89~oNGfo1KTHmZn4BeM6w__";
+const PLATFORM_IMG = "/images/pes-platform-section.webp";
 
 const innovations = [
   {

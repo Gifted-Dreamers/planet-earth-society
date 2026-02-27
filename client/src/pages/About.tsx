@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import { ArrowRight, Heart, Shield, Lightbulb } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 
-const ABOUT_IMG = "https://private-us-east-1.manuscdn.com/sessionFile/VK2BPOdXzOkDT8Maot7Qip/sandbox/Ul0MbzM2JOiObjJGmcqQOm-img-2_1771911484000_na1fn_cGVzLWFib3V0LXNlY3Rpb24.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVksyQlBPZFh6T2tEVDhNYW90N1FpcC9zYW5kYm94L1VsME1iek0ySk9pT2JqSkdtY3FRT20taW1nLTJfMTc3MTkxMTQ4NDAwMF9uYTFmbl9jR1Z6TFdGaWIzVjBMWE5sWTNScGIyNC5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=btIc0ozMCh08hZDhpCbZTr21mjq5QsOdtoYwPL4Fuqdb5~v~896CWFITHxqDylRjP2EqrXiVZS7nBTgZBVsF6JAiSMmMb0m8Grw-uaqkzCFhbTBU3TVfvXX6M~gFwuREETVzpZuW6ZHHio5Qu50UnhlV2pl5XYN7HWQ3k-d4Nd7gDMoAAajcUmv0zre4gl82wIISj5ZqyR8e4UNgkW5T0T8nVnccbRJKbfXd2ux~ZKjqY66XvinvM6fKG7TWJuFX6k9-tFQK9I1608PyXl6LFTBdNasEhWBgUMXSaaDUDrIfwXzqishyPutaAdQrXlpvL3tbBnqSCwRUVM2Y5-QPUA__";
+const ABOUT_IMG = "/images/pes-about-section.webp";
 
 export default function About() {
   return (

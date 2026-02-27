@@ -6,7 +6,7 @@ import { Link } from "wouter";
 import { ArrowRight, Code, Cpu, Network, Shield, Wrench, Layers } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 
-const CAREERS_IMG = "https://private-us-east-1.manuscdn.com/sessionFile/VK2BPOdXzOkDT8Maot7Qip/sandbox/Ul0MbzM2JOiObjJGmcqQOm-img-3_1771911491000_na1fn_cGVzLWNhcmVlcnMtc2VjdGlvbg.jpg?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvVksyQlBPZFh6T2tEVDhNYW90N1FpcC9zYW5kYm94L1VsME1iek0ySk9pT2JqSkdtY3FRT20taW1nLTNfMTc3MTkxMTQ5MTAwMF9uYTFmbl9jR1Z6TFdOaGNtVmxjbk10YzJWamRHbHZiZy5qcGc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=bXAp8Y-fFeQlVxEegknGFdS3LVXXhggQZAS1LTxI6~prUcXzXLhcHN-HrFUPxIJwHLD2YSnw1ZP34W1UNbc6vXkcM3z2Y-yem8uEhuG2xf1Fb-d8i3CNJkHFlzoJ0jye2MxnQXnUxY1gmYp7j~BwRn2oPXvRlNfOX1seCPNgV5bl5IV~q0L95URZONmpYsg-RvLXdfIqC68iFks8w09rSPlOESF~gNy98u3omABRS3flIusF1WDrvH-ZAJ~zQFhgapphLXcOT12GfJNUpMjSdVWNqUUU37jeZzQK1KFJgawAwudpBHGgqCo4MoFBu4sZFecDDE60DjY9NitRUauGVw__";
+const CAREERS_IMG = "/images/pes-careers-section.webp";
 
 const roles = [
   {
